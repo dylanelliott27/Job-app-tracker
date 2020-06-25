@@ -1,6 +1,8 @@
 
-#Automated job tracker
+# Automated job tracker
+
 ![alt text](popup.jpg)
+
 
 While I am on my journey to obtain my first job working as a developer, I like to keep track of all jobs I apply to, and to have an easy way to locate what day I applied on, from which website, etc.
 
