@@ -1,0 +1,79 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   width: 400px; 
+   height: 500px;
+
+}
+
+
+.titlecontainer{
+   width: 100%;
+   height: 50px;
+   background-color: rgb(240, 240, 240);
+   border-bottom: 1px solid rgb(217, 217, 217);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'montserrat';
+}
+
+.job{
+height: 40px;
+border-bottom: 1px solid #e5e5e5;
+display: flex;
+align-items: center;
+font-family: 'roboto';
+justify-content: space-between;
+}
+
+
+.descriptioncontainer{
+   display: flex;
+   align-items: center;
+}
+.descriptioncontainer > p{
+   padding-left: 10px;
+}
+
+.buttoncontainer{
+   display: flex;
+   justify-content:space-evenly;
+   height: 30px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+.buttoncontainer > div{
+   font-family: 'Open Sans';
+   color: #868686;
+   display: flex;
+   align-items: center;
+}
+.buttoncontainer > div > p{
+   padding-left: 3px;
+}
+.divider{
+   border: 1px solid #e5e5e5;
+}
+
+.overview{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 40px;
+   border-bottom: 1px solid #e5e5e5;
+   font-family: 'roboto';
+   font-size: 15px;
+}
+.overview > p{
+   padding-left: 5px;
+}
+
+.jobcontainer{
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}

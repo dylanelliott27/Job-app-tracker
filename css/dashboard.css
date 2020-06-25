@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.jobcontainer{
+    display: flex;
+    background-color:  rgb(240, 240, 240);;
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.jobcontainer > h1{
+    font-family: 'montserrat';
+}
+
+.job{
+    background-color: white;
+    border-radius: 20px;
+    width: 75%;
+    font-family: 'open sans';
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.job:hover{
+    cursor:pointer;
+}
+.subjobcontainer{
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    font-family: 'open sans';
+}
+.subjob{
+    border-bottom: 1px solid #e5e5e5;
+    height: 20px;
+}
+.summary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+#download{
+    background-color: #7bc766;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 75%;
+    font-size: 16px;
+    font-family: 'open sans';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+ }
+ #download > p{
+     padding-left: 3px;
+ }

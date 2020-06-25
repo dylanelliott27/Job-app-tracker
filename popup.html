@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="titlecontainer">
+    <h1>You have applied to <span id="jobcount" style="color: #e08600">0</span> <span id="jobplural">jobs</span> today</h1>
+  </div>
+  <div class="jobcontainer">
+    <div id="joblist" class="joblist">
+      <div id="overview" class="overview">
+        <span class="material-icons">
+          dashboard
+          </span>
+        <p>
+          Open Dashboard
+        </p>
+      </div>
+    </div>
+      <div class="buttoncontainer">
+        <div class="refreshbutton" id="refreshbutton">
+          <span class="material-icons">
+            refresh
+          </span>
+          <p>
+            Refresh
+          </p>
+        </div>
+        <hr class="divider">
+        <div class="deletebutton" id="deleteall">
+          <span class="material-icons">
+            clear
+          </span>
+          <p>Delete All</p>  
+        </div>
+        <hr class="divider">
+        <div class="generatebutton" id="generatebutton">
+          <span class="material-icons">
+            get_app
+          </span>
+          <p>Download .txt</p>
+        </div>
+      </div>
+  </div>
+<script src="popup.js"></script>
+</body>
+</html>
